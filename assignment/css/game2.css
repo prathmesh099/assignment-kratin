@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .word-search-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 40px); /* Adjust grid size as needed */
+    grid-template-rows: repeat(10, 40px); /* Adjust grid size as needed */
+    grid-gap: 2px;
+    margin-bottom: 20px;
+  }
+  
+  .word-search-grid div {
+    width: 40px; /* Adjust cell size as needed */
+    height: 40px; /* Adjust cell size as needed */
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .word-list {
+    text-align: left;
+  }
+  
+  .word-list h2 {
+    margin-top: 0;
+    color: #555;
+  }
+  
+  .word-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .word-list li {
+    margin-bottom: 5px;
+  }
+  

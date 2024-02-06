@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0e0e0; /* Adjusted background color for the body */
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 50px auto;
+    text-align: center;
+    background-color: #ffffff; /* Adjusted background color for the game container */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adjusted box shadow for a subtle depth effect */
+  }
+  
+  h1 {
+    color: #333333; /* Adjusted color for headings */
+  }
+  
+  #guessField {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #cccccc; /* Adjusted border color */
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  #guessSubmit {
+    padding: 10px 20px;
+    background-color: #007bff; /* Button background color */
+    color: #ffffff; /* Button text color */
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  #guessSubmit:hover {
+    background-color: #0056b3; /* Darker background color on hover */
+  }
+  
+  .resultParas p {
+    margin: 10px;
+    font-size: 18px;
+    color: #333333; /* Adjusted color for result paragraphs */
+  }
+  
+  .lastResult {
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  /* Red background color for wrong guesses */
+  .lastResult.red {
+    background-color: #ffcccc;
+  }
+  
+  /* Green background color for correct guess */
+  .lastResult.green {
+    background-color: #ccffcc;
+  }
+  
+  .lowOrHi {
+    font-style: italic;
+  }
+  
