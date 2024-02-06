@@ -1,6 +1,6 @@
 # assignment-kratin
 
-Our application is designed as a comprehensive Health and Wellness Hub specifically tailored to meet the needs of seniors, aged 65 and above. It encompasses a range of features and functionalities aimed at promoting physical health, cognitive well-being, social interaction, and access to healthcare resources.
+Our application is designed as a comprehensive Health and Wellness Hub specifically tailored to meet the needs of seniors, aged 65 and above. It encompasses a range of features and functionalities aimed at promoting cognitive well-being, and access to healthcare resources.
 
 Features:
 
